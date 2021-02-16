@@ -818,6 +818,7 @@ config VIDEO_SUNXI
 	depends on !SUN50I_GEN_H6
 	select VIDEO
 	imply VIDEO_DT_SIMPLEFB
+	imply I2C_EDID
 	default y
 	---help---
 	Say Y here to add support for using a cfb console on the HDMI, LCD
